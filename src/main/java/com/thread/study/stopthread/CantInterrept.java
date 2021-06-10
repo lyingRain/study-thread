@@ -24,6 +24,7 @@ public class CantInterrept {
               }
           }
         };
+
         Thread thread = new Thread(runnable);
         thread.start();
         Thread.sleep(5000);
